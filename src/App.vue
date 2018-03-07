@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <answer></answer>
+    <result></result>
   </div>
 </template>
 
 <script>
-import answer from './components/answer'
+import result from './components/result'
 
 export default {
   name: 'App',
   components: {
-    answer
+    result
   }
 }
 </script>
